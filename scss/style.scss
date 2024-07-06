@@ -12,18 +12,21 @@ body {
 .container {
   max-width: 1300px;
   width: 100%;
-  margin: 0 auto;
+  margin: 64px auto;
 }
 
 .card {
+  box-shadow: 0 5px 10px .5px #b8aaf0;
+  border-radius: 25px;
   max-width: 1300px;
   width: 100%;
   padding: 68px;
-  border: 1px solid #866AFA66;
+  border: 1px solid #D3D4D6;
   display: flex;
   align-items: center;
   gap: 32px;
   margin-bottom: 64px;
+  margin-top: 64px;
 
   .card-box {
     display: flex;
@@ -185,7 +188,7 @@ body {
 
 .footer {
   padding-top: 68px;
-
+  padding-bottom: 68px;
   .logo-message {
     display: flex;
     justify-content: space-between;
